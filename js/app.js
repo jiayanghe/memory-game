@@ -124,8 +124,7 @@ for (let card of cardList) {
         //add classes to the card to show the symbol
         this.classList.add('open', 'show');
         openList.push(addLi);//add the open card to openList
-        moveCounter += 1; //increment move counts
-        $('.moves').html(moveCounter);
+
         //display stars according to users moves
         if(moveCounter>25 && moveCounter<=35){
                 $('#star3').css('display','none')
@@ -136,6 +135,8 @@ for (let card of cardList) {
 
         //if two cards are open, check if they match
         if(openList.length === 2) {
+            moveCounter += 1; //increment move counts
+            $('.moves').html(moveCounter);
             let card1 = openList[0];
             let card2 = openList[1];
             if(card1.classList.contains(card.name) && card2.classList.contains(card.name)) {

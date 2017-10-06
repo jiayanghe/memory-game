@@ -1,20 +1,26 @@
 # Memory Game Project
 
-## Table of Contents
+## How was the game created
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+The game was created using html, css and javascript codes.
 
-## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+## How to play the game
 
-To get started, open `js/app.js` and start building out the app's functionality
+Users can simply click on the cards on the screen, if two cards they clicked subsequently are the same, 
+they will be locked on the screen. Users win the game by locking all cards on the screen.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
-## Contributing
+## What to expect from the game
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+The game tests users memory, it also tells players how long and how many moves they took to win a game.
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+
+
+## Game Dependency
+The game is a very simple memory game. Hardly any addcition can be forsee.
+
+
+## References
+The development have been inspired by codes from other developers, below is the list.
+https://vladtzaru.github.io/fend-project-memory-game/
